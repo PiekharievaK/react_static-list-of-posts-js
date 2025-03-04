@@ -6,7 +6,7 @@ export const CommentList = ({ comments }) =>
   comments.length > 0 ? (
     <div className="CommentList">
       {comments.map(comment => (
-        <CommentInfo coment={comment} key={comment.id} />
+        <CommentInfo comment={comment} key={comment.id} />
       ))}
     </div>
   ) : (
